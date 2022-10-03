@@ -72,7 +72,7 @@ body {
 }
 
 a {
-    color: pink;
+    color: orange;
 }
 
 form {
@@ -119,7 +119,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .input-container input {
@@ -127,4 +127,19 @@ form {
     border: 1px solid lightgrey;
     height: 30px;
     width: 200px;
+}
+
+#signup.btn {
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background-color: orange;
+    font-size: 18px ;
+    font-weight: bold;
+    padding: 18px 36px;
+}
+
+#signup.btn:hover,
+#signup.btn:active {
+    background-color: black;
+    color: orange;
 }
