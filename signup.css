@@ -140,6 +140,10 @@ form {
     width: 200px;
 }
 
+.input-container input.error {
+    border: 1px solid rgb(126, 0, 0);
+}
+
 #signup.btn {
     border: 1px solid transparent;
     border-radius: 9px;
@@ -155,9 +159,9 @@ form {
     color: rgb(163, 90, 0);
 }
 
-.error-msg {
+.msg.error {
     font-weight: bold;
-    color: rgb(126, 0, 0);
+    color: rgb(126, 0, 0);  
 }
 
 @media only screen and (max-width: 1350px)  {

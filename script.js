@@ -1,6 +1,6 @@
 const pwd = document.querySelector(".pwd");
 const pwdConfirm = document.querySelector(".pwdConfirm");
-const errorMsg= document.querySelector(".error-msg");
+const errorMsg= document.querySelector(".msg");
 const signupBtn = document.querySelector("#signup");
 
 signupBtn.addEventListener("click", (e) => {
@@ -10,8 +10,8 @@ signupBtn.addEventListener("click", (e) => {
 
 function checkpassword(p, pc) {
     if (p !== pc) {
-        errorMsg.textContent = "*Passwords must match"
-    } else {
-        errorMsg.textContent = ''
-    };
+        pwd.classList.add("error");
+        pwdConfirm.classList.add("error");
+        errorMsg.classList.add("error");
+    }
 }
