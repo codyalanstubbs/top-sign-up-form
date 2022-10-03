@@ -10,7 +10,7 @@ signupBtn.addEventListener("click", (e) => {
 
 function checkpassword(p, pc) {
     if (p !== pc) {
-        errorMsg.textContent = "Passwords must match"
+        errorMsg.textContent = "*Passwords must match"
     } else {
         errorMsg.textContent = ''
     };
