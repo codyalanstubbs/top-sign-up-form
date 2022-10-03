@@ -103,6 +103,7 @@ form {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 40%;
+    margin-top: 50px;
 }
 
 .input-container {
@@ -114,6 +115,7 @@ form {
 }
 
 .input-container input {
+    background-color: rgb(255, 227, 216);
     border: 1px solid lightgrey;
     height: 30px;
     width: 200px;
