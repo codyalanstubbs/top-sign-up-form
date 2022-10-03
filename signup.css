@@ -101,7 +101,7 @@ form {
     justify-content: center;
     box-sizing: border-box;
     height: 462px;
-    background-color: white;
+    background-color: lightsalmon;
     box-shadow: 0 8px 6px -6px lightgrey;
     padding: 0 0 0 25px;
 }
@@ -111,7 +111,7 @@ form {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 40%;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .input-container {
@@ -125,6 +125,7 @@ form {
 .input-container input {
     background-color: rgb(255, 227, 216);
     border: 1px solid lightgrey;
+    border-radius: 5px;
     height: 30px;
     width: 200px;
 }
@@ -141,5 +142,10 @@ form {
 #signup.btn:hover,
 #signup.btn:active {
     background-color: black;
-    color: orange;
+    color: rgb(163, 90, 0);
+}
+
+.error-msg {
+    font-weight: bold;
+    color: rgb(126, 0, 0);
 }

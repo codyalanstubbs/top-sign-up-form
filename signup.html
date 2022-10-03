@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="signup.css">
+    <script src="script.js" defer></script>
     <title>Signup | Sensory Lexicons</title>
 </head>
 
@@ -31,11 +32,11 @@
 
     <form action="">
         <div class="cta-section">
-            <h2>Stop wasting time! Gain access to the largest online sensory lexicon.</h2>
-            <h2>You <em>can't</em> afford to waste another minute!</h2>
+            <h2>Stop wasting time building sensory lexicons from scratch.</h2>
+            <h2>Gain access to the <em>largest</em> online database of sensory lexicons today.</h2>
         </div>
         <div class="input-section">
-            <h2>Do it! Sign up now!</h2>
+            <h2>Let's save you weeks of work!</h2>
             <div class="inputs">
                 <div class="input-container">
                     <label for="firstName">FIRST NAME</label>
@@ -55,17 +56,18 @@
                 </div>
                 <div class="input-container">
                     <label for="pwd">PASSWORD</label>
-                    <input type="password" name="pwd" required>
+                    <input type="password" name="pwd" class="pwd" required>
                 </div>
                 <div class="input-container">
                     <label for="pwdConfirm">CONFIRM PASSWORD</label>
-                    <input type="password" name="pwdConfirm" required>
+                    <input type="password" name="pwdConfirm" class="pwdConfirm" required>
                 </div>
             </div>
+            <div class="error-msg"></div>
         </div>
         <div class="btn-section">
             <button id="signup" class="btn">Create Account</button>
-            <p>Already have an account? <a href="#">Login!</a></p>
+            <p>Already have an account? <a href="#">Login</a></p>
         </div>
     </form>
 </body>
