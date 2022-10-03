@@ -110,7 +110,8 @@ form {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 40%;
+    width: 60%;
+    min-width: 670px;
     margin-top: 0px;
 }
 
@@ -121,6 +122,15 @@ form {
     align-items: flex-start;
     margin-top: 20px;
 }
+
+.input-container:nth-of-type(odd) {
+    margin-right: 50px;
+}
+
+.input-container:nth-of-type(even) {
+    margin-right: 200px;
+}
+
 
 .input-container input {
     background-color: rgb(255, 227, 216);
@@ -148,4 +158,16 @@ form {
 .error-msg {
     font-weight: bold;
     color: rgb(126, 0, 0);
+}
+
+@media only screen and (max-width: 1350px)  {
+    .logo-text > div {
+        font-size: 69px;
+    }
+}
+
+@media only screen and (max-width: 918px)  {
+    .logo-text > div {
+        font-size: 49.5px;
+    }
 }
