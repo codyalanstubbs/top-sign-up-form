@@ -43,11 +43,19 @@ body {
 }
 
 .logo-text {
-    text-align: left;
+    width: 100%;
     font-size: 128px;
     font-weight: bold;
 }
 
+.logo-text div:nth-child(2) {
+    text-align: center;
+ }
+
+ .logo-text div:nth-child(3) {
+    text-align: right;
+ }
+ 
 
 .banner-strip {
     display: flex;
